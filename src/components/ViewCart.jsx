@@ -1,5 +1,4 @@
-import { InsertEmoticon } from '@mui/icons-material';
-import { Box, Button, Card, CardContent, CardMedia, Chip, Drawer, Grid, IconButton, List, ListItem, ListItemText, TextField, Typography } from '@mui/material';
+import { Box, Button, Card, CardContent, CardMedia, Chip, Drawer, Grid, List, ListItem, ListItemText, TextField, Typography } from '@mui/material';
 import React from 'react';
 import DeleteIcon from '@mui/icons-material/Delete';
 const ViewCart = ({ open, cartItems, onDeleteCartItem, onToggleDrawer, onChangeCartItemCant }) => {

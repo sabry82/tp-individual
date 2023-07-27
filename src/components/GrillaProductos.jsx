@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import { Button, Link } from '@mui/material';
+import { Button } from '@mui/material';
 
 function GrillaProductos({ categoria, onAddToCart }) {
   const [productos, setProductos] = React.useState([]);
