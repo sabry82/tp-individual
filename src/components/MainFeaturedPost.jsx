@@ -65,5 +65,5 @@ MainFeaturedPost.propTypes = {
     title: PropTypes.string.isRequired,
   }).isRequired,
 };
-
+ 
 export default MainFeaturedPost;
